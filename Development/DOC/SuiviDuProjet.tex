@@ -1,0 +1,109 @@
+\documentclass[a4paper,12pt]{article}
+\usepackage[francais]{babel}
+%\usepackage[latin1]{inputenc}
+\usepackage[T1]{fontenc}
+\usepackage{textcomp}
+\usepackage[utf8]{inputenc}  
+\usepackage[T1]{fontenc}  
+\usepackage{picins}
+\usepackage{wrapfig}
+\usepackage{graphicx}
+\usepackage[section]{placeins}
+\usepackage{lscape}
+\usepackage{float} 
+\usepackage{amssymb}
+\usepackage[nottoc, notlof, notlot]{tocbibind}
+\usepackage{eso-pic}
+\author{\begin{flushleft}Eté Rémi\end{flushleft}}
+\date\today
+
+
+\voffset -0.95in
+\textheight 22cm
+
+%Command just for a background picture
+\newcommand\BackgroundPic{
+\put(0,0){
+\parbox[b][\paperheight]{\paperwidth}{
+\vfill
+\centering
+\includegraphics[width=\paperwidth,height=\paperheight,
+keepaspectratio]{   Picture!!!!!   }
+\vfill
+}}}
+
+
+\begin{document}
+
+%Add the picture in background
+%\begin{center}
+%\AddToShipoutPicture{\BackgroundPic}
+%\end{center}
+
+\fbox{\begin{minipage}{\textwidth}
+\begin{center}
+{\LARGE SummerDev Project : \\
+Idées et trucs en pagaille}
+\end{center}
+\end{minipage}}
+
+~\\
+~\\
+
+\noindent \underline{Choses indispensables :}
+~\\
+\begin{enumerate}
+\item Gestion des fichiers du projet
+
+\begin{enumerate}
+\item Arborescence graphique en widget (sur la gauche de préférence)
+\item Toutes les informations du projet dans un fichier de configuration (language, emplacement dans le systeme linux, etc...)
+\end{enumerate}
+
+\item Emulation de terminal
+
+\begin{enumerate}
+\item Réponse du programme dans le terminal (si programme non graphique)
+\item Commandes bash disponibles 
+\item Une nouvelle ouverture de terminal ouvre un onglet et pas une nouvelle fenetre indépendante de l'IDE (a réflechir plus en profondeur...)
+\end{enumerate}
+
+\item Gestionnaire de make file (C/C++)
+
+\begin{enumerate}
+\item Construction automatique des make files a partir du code l'utilisateur (refléchir au linking pas nécéssaire des bibliotheques préfournise)
+\item Génération d'un make file unique dans le dossier du projet 
+\end{enumerate}
+
+\item Documentation de l'IDE bien construite pour les autres utilisateurs
+\item Rendre le projet portable sur une autre machine
+
+\begin{enumerate}
+\item Vérifier la compatibilité des variables d'environnement dans les autres architectures Linux
+\item Adapter le code au machines Windows
+\end{enumerate}
+
+\item Coloration syntaxique du code
+
+\begin{enumerate}
+\item La programmation évènementielle fera l'affaire. 
+\item Le bout de code devra etre compris de le plug in du language
+\end{enumerate}
+
+\item Mathplot en onglet pour du test rapide de graphe et d'outils mathématiques 
+\item Coder la gestion des languages sous forme de plug-in
+
+\begin{enumerate}
+\item Créer une interface pour chaque language
+\item Plug in indépendant du reste de l'IDE (principe du plug in, oui...)
+\item Une partie du code sur la GUI
+\item Une partie sur la doc
+\item Une partie sur la coloration syntaxique (un fichier par coloration)
+\item Une partie touchant au configuration du projet
+\end{enumerate}
+
+\item Référenciation du code (Réfléchir a la facon de coder ce machin (aucune idée pour l'instant...))
+
+\end{enumerate}
+
+\end{document}

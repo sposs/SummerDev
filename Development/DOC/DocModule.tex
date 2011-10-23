@@ -1,0 +1,137 @@
+\documentclass[a4paper,12pt]{article}
+\usepackage[francais]{babel}
+%\usepackage[latin1]{inputenc}
+\usepackage[T1]{fontenc}
+\usepackage{textcomp}
+\usepackage[utf8]{inputenc}  
+\usepackage[T1]{fontenc}  
+\usepackage{picins}
+\usepackage{wrapfig}
+\usepackage{graphicx}
+\usepackage[section]{placeins}
+\usepackage{lscape}
+\usepackage{float} 
+\usepackage{amssymb}
+\usepackage[nottoc, notlof, notlot]{tocbibind}
+\usepackage{eso-pic}
+\author{\begin{flushleft}Eté Rémi\end{flushleft}}
+\date\today
+
+
+\voffset -0.95in
+\textheight 22cm
+
+
+\begin{document}
+
+\fbox{\begin{minipage}{\textwidth}
+\begin{center}
+{\LARGE SummerDev Project : \\
+Modules}
+\end{center}
+\end{minipage}}
+
+~\\
+~\\
+
+%%%% Ressource Module %%%%
+
+\begin{center}
+{\LARGE Le module Ressource}
+\end{center}
+
+Le module Ressource contient tout les modules indispensables au bon fonctionnement de l'application.
+Entre autres :
+\begin{itemize}
+\item Gestion des threads
+\item Suivi de l'installation (et éventuellement de la désinstallation...)
+\item Gestion des messages (erreurs, info, checks, etc...)
+\item Gestion de base de données (Coloration syntaxique, référenciation du code)
+\item Gestionnaire AutoMake
+\item ?
+\end{itemize}
+
+%%%% Doc Module %%%%
+
+\begin{center}
+{\LARGE Le module DOC}
+\end{center}
+
+Le module DOC contient tous les modules ou fichier relatif a la documentation. Elle concerne le projet en lui meme ainsi que la documentation de l'IDE. On y trouve donc :
+\begin{itemize}
+\item La documentation du code source Python de l'IDE
+\item La documentation de l'IDE relative à son fonctionnement
+\item Une documentation plus générale des modules
+\item Le suivi des idées du projet en pdf
+\item ?
+\end{itemize}
+
+%%%% Env Module %%%%
+
+\begin{center}
+{\LARGE Le module ENV}
+\end{center}
+
+Le module Env contient toutes informations relatives a l'environnement sur lequel SummerDev est installé.
+Entre autre :
+\begin{itemize}
+\item Les variables d'environnement du système pour l'installation et l'execution de l'IDE
+\item ?
+\end{itemize}
+
+%%%% Plug-In Module %%%%
+
+\begin{center}
+{\LARGE Le module Plug-In}
+\end{center}
+
+Le module Plug-In contient les élements indépendants de la structure principale et du fonctionnement principale de l'application.
+Pour l'instant :
+\begin{itemize}
+\item Plug-In SummerPy : Tous les composants pour gérer un projet Python.
+\item Plug-In SummerC : Tous les composants pour gérer un projet C.
+\item Plug-In SummerCPP : Tous les composants pour gérer un projet C++.
+\item Plug-In SummerBash : Tous les composants pour générer un script Bash.
+\end{itemize}
+
+En projet :
+\begin{itemize}
+\item Plu-In SummerMaths : Composants pour gérer le package MathPlot de Python
+\item Une serie de tutoriel pour chaque langage (chacun sous forme d'un Plug-In de sorte à gérer les interfaces avec les plug in langage de base)
+\end{itemize}
+
+Chaque Plug-In comprendra au moins :
+\begin{itemize}
+\item Eléments d'interface graphique (GUI)
+\item Eléments d'environnement (variables d'environnement pour chaque langage)
+\item Des scripts en vrac!!!
+\item ?
+\end{itemize}
+
+%%%% GUI Module %%%%
+
+\begin{center}
+{\LARGE Le module GUI}
+\end{center}
+
+Le module GUI contient les composants principaux de la fenetre principale et de tout ce qui n'interagit pas (ou tres peu) au niveau graphique avec le reste de l'application.
+Entre autre :
+\begin{itemize}
+\item La fenetre d'ouverture
+\item La fenetre principale
+\item Menu principal d'ouverture (Du genre : Ouvrir un projet existant, cliquez sur le projet -> ; Vous ne pinnez rien a la prog? cliquez ici -> )
+\item Les fenetres d'information, d'erreurs, de questions, etc...
+\item Les fenetres secondaires :
+\begin{enumerate}
+\item Gestion avancée de compilation avec gcc, g++ et make
+\item Chargement de Plug-In (interface avec le module Plug-In)
+\item ?
+\end{enumerate}
+\item ?
+\end{itemize}
+
+
+
+
+
+\end{document}

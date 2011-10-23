@@ -1,0 +1,42 @@
+#################################################
+##########           INSTALL          ###########
+#################################################
+
+
+
+SummerDev is an IDE for simple development projects in C++ or python.
+It's an alternative solution for weak development for students who
+want to learn programming without to learning complex IDE. 
+
+#############     Needed Packages    ############
+
+
+Some packages or binairies must be installed before running SummerDev :
+
+- Bash Shell
+- PyGTK librairies
+- Others optional librairies or binairies (for plug-ins...) 
+
+See on the respective website how to install this packages.
+ 
+##############    INSTALLATION    ###############
+
+
+There should be a bash script "configure.sh" in the same folder of this README file. 
+
+WARNING!! Use the sudo prefix to execute this script rather the super user session
+("sudo echo $HOME" with any user is different to "echo $HOME" with root session)  
+
+To install SummerDev, execute the bash script like this:
+
+		bash configure.sh 
+
+Then, the script will ask you some questions about the path installation or librairy paths or others...
+
+#############    DOCUMENTATION    ###############
+
+
+Documentation can be accesed in python code documentation or in the Menu Bar "Help/Summary"
+
+
+
