@@ -1,0 +1,39 @@
+pour la construction de la fenetre principale:
+	-Décomposer chaque élement et en faire une classe (interfacé avec la fenetre principale). 
+	-Implémenter chaque élements séparément
+pour le reste aussi d'ailleurs : penser a implémenter chaque éléments a part pour les interfacé
+les uns avec les autres
+Ca permettra de coder chaque bout séparément sans avoir forcement a pensé aux autre en meme temps
+
+Premiere liste d'éléments:
+
+-terminal
+-barre d'état
+-barre de menu
+-onglets 
+-Menu déroulant du projet
+-éditeur de texte
+-coloration syntaxique
+-gestion de threads
+-boite a outils (compilation, ajout d'un fichier, etc...)
+-gestionnaire Automake
+-Installation de plug in
+-fenetre de choix de coloration syntaxique
+-référenciation du code
+-premiere fenetre de chargement
+-Menu de démarrage
+-Menu de changement de langage
+-Menu de changement de projet
+-
+
+
+Penser a demander a stephane:
+-Comment configurer eclipse pour gerer projet avec git
+-Voir si on peut le partager ensemble via git (si ca l'intéresse) 
+-Lui parler de dropbox
+-Lui filer les pistes de réflexion
+-Si rendez vous entre midi et deux pour le mardi et mercredi (ca peut etre bien)
+
+pouette pouette un changement test pour git...
+
+
