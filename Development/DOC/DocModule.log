@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-1.40.10 (TeX Live 2009/Debian) (format=pdflatex 2011.5.26)  16 OCT 2011 12:39
+This is pdfTeX, Version 3.1415926-1.40.10 (TeX Live 2009/Debian) (format=pdflatex 2011.5.26)  25 OCT 2011 08:23
 entering extended mode
  %&-line parsing enabled.
 **DocModule.tex
@@ -617,10 +617,16 @@ Underfull \hbox (badness 10000) in paragraph at lines 34--36
 
  []
 
+
+Overfull \hbox (8.84154pt too wide) in paragraph at lines 92--93
+[]\T1/cmr/m/n/12 Plug-In Sum-mer-CPP : Tous les com-posants pour gérer un pro-j
+et C/C++. 
+ []
+
 [1
 
 {/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}]
-Overfull \hbox (0.23657pt too wide) in paragraph at lines 106--107
+Overfull \hbox (0.23657pt too wide) in paragraph at lines 105--106
 []\T1/cmr/m/n/12 Eléments d'en-vi-ron-nement (vari-ables d'en-vi-ron-nement pou
 r chaque lan-
  []
@@ -636,9 +642,9 @@ Here is how much of TeX's memory you used:
  25i,5n,24p,216b,196s stack positions out of 5000i,500n,10000p,200000b,50000s
  </home/remi/.texmf-var/fonts/pk/ljfour/jknappen/ec/ecrm
 1200.600pk> </home/remi/.texmf-var/fonts/pk/ljfour/jknappen/ec/ecrm2074.600pk>
-Output written on DocModule.pdf (2 pages, 37304 bytes).
+Output written on DocModule.pdf (2 pages, 37581 bytes).
 PDF statistics:
- 108 PDF objects out of 1000 (max. 8388607)
+ 109 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
  1 words of extra memory for PDF output out of 10000 (max. 10000000)
 
