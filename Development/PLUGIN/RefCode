@@ -1,0 +1,23 @@
+Dans ce fichier, toutes les idées relatives a la référenciation du code. 
+
+
+
+Elle permet de suivre l'évolution du code via un thread 
+qui va prendre du texte en permanent dans la zone de l'éditeur.
+Elle permet par exemple dans:
+
+class bitognoFille (bitognoMere) :
+
+en positionnant le curseur sur bitognoMere et en appuyant sur une touche Fi 
+d'ouvrir le fichier (s'il n'est pas déja ouvert) contenant la classe bitognoMere
+directement sur la classe
+
+Chaque plug in a son fichier de referCode avec une classe hérité d'une classe générique pour tous
+les plugIn que l'on trouve dans ce dossier. Donc, penser a faire un truc super générique 
+ou bien disloqué (bbeaucoup de fontion différentes ou de classe meme s'il faut) 
+pour permettre un héritage plus logique.
+Peut  etre une interface serait plus simple -> a discuter avec Steph
+
+penser a la commande sed qui fais des opérations sur fichier facilement.
+
+Autres fonctionnalité a discuter (ou tout simplement a trouver ^^)
