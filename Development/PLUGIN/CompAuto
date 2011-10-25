@@ -1,0 +1,24 @@
+Dans ce fichier, toutes les idées relatives a la complétion automatique.
+
+
+
+La complétion automatique permet de proposer un complément qui peut convenir a la chaie de caracteres
+que l'utilisateur vient de taper
+Ex ,je tape (en python):
+
+class babouba (
+
+on obtient : 
+
+class babouba (self) :
+____->(retour a la ligne avec incrémentation)
+
+Meme chose que pour la referCode : une classe générique 
+qui permet de traiter des choses communes a tous les langages puis la faire
+hériter pour  chaque plug in.
+
+Nessecite un thread et une base de donnée (le code est pas pour moi la ^^)
+
+Penser a la commande sed qui traite facilement des opérations sur fichier.
+
+Faire une liste de toute les complétion automatique possible!!!! 
