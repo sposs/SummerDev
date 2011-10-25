@@ -14,9 +14,13 @@ directement sur la classe
 
 Chaque plug in a son fichier de referCode avec une classe hérité d'une classe générique pour tous
 les plugIn que l'on trouve dans ce dossier. Donc, penser a faire un truc super générique 
-ou bien disloqué (bbeaucoup de fontion différentes ou de classe meme s'il faut) 
+ou bien disloqué (beaucoup de fontion différentes ou de classe meme s'il faut) 
 pour permettre un héritage plus logique.
+
 Peut  etre une interface serait plus simple -> a discuter avec Steph
+
+Au fur et a mesure que l'utilisateur écrit son code, mettre les classes en relation 
+dans une base de données
 
 penser a la commande sed qui fais des opérations sur fichier facilement.
 
