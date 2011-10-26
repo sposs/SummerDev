@@ -8,3 +8,11 @@ Il y a des threads pour:
 -la complétion automatique.
 -la coloration syntaxique.
 -la référenciation du code.
+-pour le terminal de l'application (en onglet)
+-?
+
+Ne pas oublier de récupérer les PID et tout le blabla pour identifier les threads
+
+
+
+
