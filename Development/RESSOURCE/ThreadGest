@@ -1,0 +1,10 @@
+Fichier d'idees relatif a la gestion des threads de l'application.
+
+
+
+
+Il y a des threads pour:
+-l'application (thread leader), c'est a dire la GUI.
+-la complétion automatique.
+-la coloration syntaxique.
+-la référenciation du code.
