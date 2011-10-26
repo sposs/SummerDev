@@ -19,6 +19,7 @@ Créer une commande summerdev-uninstall pour virer le programme.
 
 Créer :
 - un executable /usr/bin/summerdev
-- un dossier /usr/lib/summerdev
-- un fichier caché de config dans le repertoire courant ~/.summerdev-config
+- un dossier /usr/lib/summerdev contenant tout le nécéssaire pour faire tourner l'appli
+- un fichier caché de config dans le repertoire courant ~/.summerdev-config pour l'utilisateur
+- ?
  
