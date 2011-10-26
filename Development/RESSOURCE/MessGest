@@ -1,0 +1,23 @@
+fichier d'idées concernant la gestion des messages d'erreur/info/check message/autre
+
+
+
+
+La plupart est implémenter dans la GUI.
+Créer des fonctions toute pretes pour mettre dans la GUI.
+Repiquer la gestion des S_OK, S_ERROR, et compagnie sur DIRAC pour gérer les renvoi de fonctions
+Chaque fonction devra renvoyer quelque chose : soit elle renvoie le résultat de son travail 
+soit elle renvoie un de ces messages (S_OK and Cie)
+
+Penser a faire un liste d'intervention des messages sous la forme :
+
+"Evenement" 
+-> "type de message" :
+"reponse du programme"
+
+par exemple:
+"on ferme le programme sans enregistrer les fichiers" 
+-> "message d'info" : 
+"voulez vous enregistrer votre travail?"
+
+
