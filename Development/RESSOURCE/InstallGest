@@ -1,0 +1,24 @@
+fichier d'idées relatif a la gestion de l'installation/désinstallation du programme.
+
+
+
+
+Créer des variables d'environnements pour des choses génériques (path, lib)
+Trouver un moyen de l'installer pour ensuite supprimer le dossier dézipper, cad :
+je télécharge le tar.gz, de le détar (ca se dit ???), je vais cherché le fichier de config,
+je le lance, je lance l'installation, je supprime tout ce qui a été dézippé.
+
+Penser a regarder /usr/lib/eclipse/buildscripts/pde-build pour les scripts bash d'installation 
+et de lancement du programme avec des options.
+
+Chercher a quoi correspond l'extension .jar
+
+
+
+Créer une commande summerdev-uninstall pour virer le programme. 
+
+Créer :
+- un executable /usr/bin/summerdev
+- un dossier /usr/lib/summerdev
+- un fichier caché de config dans le repertoire courant ~/.summerdev-config
+ 
