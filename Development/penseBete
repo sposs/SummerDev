@@ -31,7 +31,7 @@ Penser a demander a stephane:
 -Voir si on peut le partager ensemble via git (si ca l'intéresse) 
 -Si rendez vous entre midi et deux pour le mardi et mercredi (ca peut etre bien)
 
-penser a regarder plus en détail les "regex" et la commande "sed" 
+penser a regarder plus en détail les expressions régulieres et la commande "sed" 
 pour les opérations sur fichier ou directement sur le texte que l'utilisateur tape (comentaire, alinéa, etc...)
 
 
