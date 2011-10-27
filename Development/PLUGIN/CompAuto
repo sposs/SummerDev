@@ -20,5 +20,6 @@ hériter pour  chaque plug in.
 Nessecite un thread et une base de donnée (le code est pas pour moi la ^^)
 
 Penser a la commande sed qui traite facilement des opérations sur fichier.
+ou mieux!! : ecrire le fichier en Perl language réputé pour ses super opérations sur les fichiers.
 
 Faire une liste de toute les complétion automatique possible!!!! 

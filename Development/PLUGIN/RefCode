@@ -23,5 +23,8 @@ Au fur et a mesure que l'utilisateur écrit son code, mettre les classes en rela
 dans une base de données
 
 penser a la commande sed qui fais des opérations sur fichier facilement.
+ou mieux!!! : ecrire ces fichiers en Perl : language réputé pour ses opérations sur fichier,
+le code dans les threads ont besoin de tourner rapidement.
+
 
 Autres fonctionnalité a discuter (ou tout simplement a trouver ^^)
