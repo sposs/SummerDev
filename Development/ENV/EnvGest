@@ -1,0 +1,37 @@
+fichier d'idées relatif a la gestion de l'environement d'installation, mise a jour, etc...
+
+
+
+
+Pour la plus grande part ce fichier c'est pour toi sylvain!
+Penser a rendre compatible SD sur les OS suivant:
+
+LINUX:
+-Ubuntu
+-Mandriva
+-Red Hat
+-Debian
+-Fedora
+-OpenSuse
+-?
+
+WINDOWS:
+-XP
+(-Vista)
+-Seven
+
+UNIX:
+-FreeBSD
+-?
+
+Penser a utiliser la virtualisation pour les test!
+
+Rendre compatible veut dire:
+-Gestion de l'installation (voir InstallGest)
+-Gestion des mises a jour (une fois sous licence et disponible en mises a jour, 
+ou alors sur internet via site web)
+-Gestion de la désinstallation (sauvegarder les chemins d'installation dans des variables d'ENV,
+créer une commande de désinstallation, vire tous les fichiers présent de SD)
+
+
+
