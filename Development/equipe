@@ -1,0 +1,21 @@
+#################################################################
+####################### Gestion de l'equipe #####################
+#################################################################
+
+Rémi Eté:
+	- Languages de prog : 
+		- C/C++ (ROOT ca peut ptetre servir...)
+		- Python
+		- Shell Bash
+		- Latex
+		- débute en Perl
+		
+	- Ce que je veux faire pour le projet :
+	  Ben en fait un peu de tout, mais je tiens a faire pour ma part:
+		- Ecriture de l'interface graphique
+		- Gestion des threads
+		- Ecriture du plug-in sur Python
+		
+	- Ce que je ne sais pas faire :
+		- Base de données pour la complétion automatique, la référenciation du code et autre...
+		- Gestion de compatibilité du logiciel (transport d'une plateforme à une autre)
