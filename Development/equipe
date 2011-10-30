@@ -20,3 +20,22 @@ Rémi Eté:
 	- Ce que je ne sais pas faire :
 		- Base de données pour la complétion automatique, la référenciation du code et autre...
 		- Gestion de compatibilité du logiciel (transport d'une plateforme à une autre)
+
+Sylvain Brocchetto :
+	- Langages de programmation :
+		- C++ (niveau moyen)
+		- PHP (niveau moyen mais motivations au plus bas)
+		- Shell Bash (bonnes notions, en train d'approfondir)
+		- SQL (pas vraiment un langage de prog, mais langage quand même!)
+
+	- Ce que je veux faire pour le projet :
+	Totalement évolutif selon l'avancement du projet et de ses futures orientations.
+		- Gestion de la compatibilité du logiciel sous les différentes plateformes Windows, Linux, Unix (FreeBSD) voire Mac,
+		- Mise à disposition de plateformes de test virtualisées sous ces différents OS,
+		- Gestion (en solo ou à plusieurs) de la partie Bash Shell de SummerDev,
+		- Travail sur le futur SGBDR (MySQL en priorité) selon sa complexité et l'utilisation qu'il en sera faite,
+		- Gestion/administration d'un hypothétique site web présentant et hébergeant le projet SummerDev, en la charmante compagnie d'un développeur dévoué et motivé pour l'écriture des codes HTML/PHP/CSS. Je précise que je dispose déjà d'un serveur Web accessible depuis Internet, pour quiconque a besoin d'héberger des fichiers.
+
+	- Ce que je ne sais pas faire :
+		- Du développement dans le sens général du terme,
+		- Définition, organisation et implémentation complète d'un site web.
