@@ -74,3 +74,26 @@ Rémi Benvenuti :
 	- Ce que je ne peux pas faire :
 		- Promettre d'être dispo 7j/7
 		- Gestion Compatiblitié, virtualisation, ...
+
+Simon Marillet : 
+		- Langages de programmation :
+			-	C (niveau moyen)
+			- Bash
+			-	Java (dans une certaine mesure)
+			- Perl (dans une certaine mesure)
+			- Scheme (probablement inutile)
+			- SQL
+ 
+	- Ce que je veux faire pour le projet :
+		-	Principalement des tâches courtes ne demandant pas une importante documentation en amont.
+		- Optimisation / nettoyage du code
+		-	Tâches nécéssitant des notions d'algorithmique
+		-	Rôle auxiliaire dans la conception du SGBDR
+		- Testing/Bug tracking (éventuellement sous plusieurs architectures)
+		- En réponse à Sylvain : Gestion (à plusieurs) de la partie Bash Shell de SummerDev
+		- Développement de plugin de taille pas trop importante
+		- Possibilité de gérer une éventuelle partie CGI à l'aide Perl
+
+	- Ce que je ne sais pas faire :
+		- Je ne Veux pas faire d'interface graphique
+		- Gestion/administration/management du projet
