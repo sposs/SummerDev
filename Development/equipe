@@ -77,18 +77,18 @@ Rémi Benvenuti :
 
 Simon Marillet : 
 		- Langages de programmation :
-			-	C (niveau moyen)
+			- C (niveau moyen)
 			- Bash
-			-	Java (dans une certaine mesure)
+			- Java (dans une certaine mesure)
 			- Perl (dans une certaine mesure)
 			- Scheme (probablement inutile)
 			- SQL
  
 	- Ce que je veux faire pour le projet :
-		-	Principalement des tâches courtes ne demandant pas une importante documentation en amont.
+		- Principalement des tâches courtes ne demandant pas une importante documentation en amont.
 		- Optimisation / nettoyage du code
-		-	Tâches nécéssitant des notions d'algorithmique
-		-	Rôle auxiliaire dans la conception du SGBDR
+		- Tâches nécéssitant des notions d'algorithmique
+		- Rôle auxiliaire dans la conception du SGBDR
 		- Testing/Bug tracking (éventuellement sous plusieurs architectures)
 		- En réponse à Sylvain : Gestion (à plusieurs) de la partie Bash Shell de SummerDev
 		- Développement de plugin de taille pas trop importante
